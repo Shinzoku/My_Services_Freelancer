@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.SymphoForge.com/</loc>  <!-- Remplacez cela par l'URL de votre site -->
+        <lastmod>2024-03-01</lastmod>  <!-- Date de la dernière modification de la page -->
+        <!-- <changefreq>weekly</changefreq> -->  <!-- Fréquence de changement de la page -->
+        <priority>1.0</priority>  <!-- Priorité de la page sur une échelle de 0.0 à 1.0 -->
+    </url>
+    <!-- Ajoutez des entrées similaires pour d'autres pages de votre site -->
+</urlset>

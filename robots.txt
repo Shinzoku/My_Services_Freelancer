@@ -1,0 +1,2 @@
+-agent: *
+Disallow: /private/  # Remplacez cela par le chemin de tout contenu que vous ne souhaitez pas indexer

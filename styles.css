@@ -1,0 +1,117 @@
+/***** GENERAL *****/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu Condensed');
+
+body {
+    font-family: 'Ubuntu Condensed', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+section, #contact, header {
+    padding: 20px;
+}
+
+/***** HEADER *****/
+header {
+    background: linear-gradient(90deg, rgba(26,31,36,1) 0%, rgba(48,56,65,1) 76%);
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    width: 15%;
+    padding-right: 15px;
+    
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/***** SERVICES *****/
+h2 {
+    color: #59a52c;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.services-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service-card {
+    background-color: rgba(48,56,65,1);
+    border: 1px solid #0e0419;
+    border-radius: 15px;
+    padding: 10px;
+    width: 350px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title {
+    color: #59a52c;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.2em;
+    margin-bottom: 5em;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF;
+    bottom: 10px;
+    width: 95%;
+    position: absolute;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+/***** FOOTER *****/
+#contact {
+    background-color: rgba(26,31,36,1);
+    width: 100%;
+}
+
+header, #contact p, .services-group {
+    color: #fff;
+}
+
+#contact p, #contact a {
+    font-size: 1.2em;
+}
+
+#contact a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    color: rgba(26,31,36,1);
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #0e0419;
+    margin-top: 10px;
+}
+
+#contact a:hover {
+    background-color: #46515e;
+    color: #fff;
+}
